@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+*{
+
+    box-sizing: border-box;
+
+}
+
+body{
+
+    font-family: "Roboto",sans-serif;
+    margin: 0;
+
+}
+
+.col{
+
+    padding: 1rem;
+    flex: 1rem;
+
+}
+
+.col h3{
+
+    color: white;
+    text-decoration: underline;
+
+}
+
+.col:not(:last-child){
+
+    border-right: 2px solid gray;
+
+}
+
+.container{
+
+    background-image: url(Images/bg.jfif);
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 1rem;
+    width: 100%px;
+
+}
+
+.container p{
+
+    color: white;
+
+}
+
+.color{
+
+    border-bottom: 3px solid teal;
+    background-image: url(Images/bg-color.jpg);
+
+}
+
+img{
+
+    max-width: 100%;
+
+}
+
+.logo{
+
+    align-items: center;
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;    
+    justify-content: center;
+    margin: 0 0 0.5rem;
+   
+
+}
+
+.logo i{
+
+    color: teal;
+    font-size: 3rem;
+    margin-right: 1rem;
+
+}
+
+
+
+main h3{
+
+    margin-top: 0;
+
+}
+
+main p{
+
+    letter-spacing: 1px;
+    line-height: 1rem;
+
+}
+
+nav{
+
+    border-bottom: 2px solid rgb(185, 185, 185);
+    border-top: 2px solid rgb(185, 185, 185);    
+    margin: 1rem 0;
+}
+
+nav a{
+
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+
+}
+
+nav a:hover{
+
+    background-color: teal;
+
+}
+
+nav ul{
+
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.row{
+
+    display: flex;
+
+}
+
+.text-center{
+
+    color: white;
+    text-align: center;
+
+}
+
+time{
+
+    color: white;
+    font-weight: bold;
+
+}
+
+
